@@ -1,0 +1,15 @@
+.footer {
+  background: var(--verde-medio);
+  padding: 20px;
+  text-align: center;
+  color: var(--verde-oscuro);
+  border-top: 4px solid var(--verde-oscuro);
+  font-weight: bold;
+  margin-top: 0%;
+}
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.9rem;
+  }
+}

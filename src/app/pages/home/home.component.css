@@ -1,0 +1,61 @@
+/* ===== HERO / HOME ===== */
+.hero {
+  background: var(--bg-color);
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.title {
+  color: var(--verde-oscuro);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* ===== BOTONES ===== */
+.center-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-main {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background: var(--verde-oscuro);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-main:hover {
+  background: var(--verde-medio);
+  color: var(--verde-oscuro);
+}
+
+/* ===== REDES SOCIALES ===== */
+.social-links {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-links img {
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  box-shadow: 0 0 10px var(--verde-oscuro);
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
